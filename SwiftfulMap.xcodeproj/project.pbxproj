@@ -15,6 +15,7 @@
 		7F367B7D27A18D390073EFC4 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F367B7C27A18D390073EFC4 /* LocationsDataService.swift */; };
 		7F367B8027A18F720073EFC4 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F367B7F27A18F720073EFC4 /* LocationsView.swift */; };
 		7F367B8327A1949C0073EFC4 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F367B8227A1949C0073EFC4 /* LocationsViewModel.swift */; };
+		7F367B8627A1A0D40073EFC4 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F367B8527A1A0D40073EFC4 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7F367B7C27A18D390073EFC4 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		7F367B7F27A18F720073EFC4 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		7F367B8227A1949C0073EFC4 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		7F367B8527A1A0D40073EFC4 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				7F367B7F27A18F720073EFC4 /* LocationsView.swift */,
+				7F367B8527A1A0D40073EFC4 /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F367B7D27A18D390073EFC4 /* LocationsDataService.swift in Sources */,
+				7F367B8627A1A0D40073EFC4 /* LocationsListView.swift in Sources */,
 				7F367B8327A1949C0073EFC4 /* LocationsViewModel.swift in Sources */,
 				7F367B6327A10D610073EFC4 /* ContentView.swift in Sources */,
 				7F367B8027A18F720073EFC4 /* LocationsView.swift in Sources */,
