@@ -19,6 +19,8 @@ struct LocationsView: View {
     //    span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
     //)
     
+    let maxWidthForIpad: CGFloat = 700
+    
     var body: some View {
         ZStack {
             //Map(coordinateRegion: $vm.mapRegion)
@@ -28,6 +30,7 @@ struct LocationsView: View {
             VStack {
                 header
                     .padding()
+                    .frame(maxWidth: maxWidthForIpad)
                 Spacer()
                 locationPreviewStack
             }
@@ -102,10 +105,15 @@ extension LocationsView {
                     LocationPreviewView(location: location)
                         .shadow(color: Color.black.opacity(0.3), radius: 20)
                         .padding()
+                        .frame(maxWidth: maxWidthForIpad)
+                        //.background(Color.orange)
+                        .frame(maxWidth: .infinity)
+                        //.background(Color.green)
                         .transition(
                             .asymmetric(
                                 insertion: .move(edge: .trailing),
-                                removal: .move(edge: .leading))
+                                removal: .move(edge: .leading)
+                            )
                         )
                 }
             }
