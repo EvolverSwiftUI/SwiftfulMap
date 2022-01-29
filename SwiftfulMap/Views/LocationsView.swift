@@ -109,6 +109,8 @@ extension LocationsView {
                         //.background(Color.orange)
                         .frame(maxWidth: .infinity)
                         //.background(Color.green)
+                        //.transition(AnyTransition.scale.animation(.easeInOut))
+                        //.transition(AnyTransition.opacity.animation(.easeInOut))
                         .transition(
                             .asymmetric(
                                 insertion: .move(edge: .trailing),
